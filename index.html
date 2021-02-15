@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
-    <link rel="stylesheet" href="./css/modern-normalize.css">
+    <!-- <link rel="stylesheet" href="./css/modern-normalize.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css"
+        integrity="sha512-Ojqt7YpXqYM6//AdMhErV3ot38rYgGF5QLJEwx7zhesjL9VqfhWiRz/dWK22hsn96RNz0CLl85+pg1P0BmfgVQ=="
+        crossorigin="anonymous" />
     <link rel="stylesheet" href="./css/styles.css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -28,13 +31,13 @@
             </div>
     </header>
     <main>
-        <div class="container"><section class="geroy">
-            <h1 class="geroy-title">Эффективные решения<br />для вашего бизнеса</h1>
+        <section class="geroy"><div class="container">
+        <h1 class="geroy-title">Эффективные решения<br />для вашего бизнеса</h1>
             <button type="button" class="button">Заказать услугу</button>
-        </section> 
         </div>
+        </section> 
     
-        <div class="container"> <section>
+        <section class="hang-item"><div class="container">
             <!--<h2>Особенности</h2>-->
             <ul class="hang-scroll">
                 <li class="item">
@@ -54,9 +57,11 @@
                     <p class="hang-list">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
+            </div>
         </section>
-        </div>
-        <div class="container"><section>
+        
+       <section class="doing-item">
+            <div class="container">
             <h2 class="title">Чем мы занимаемся</h2>
             <ul class="doing">
                 <li class="item">
@@ -69,9 +74,10 @@
                     <img src="./images/work3.jpg" alt="дизайн" width="370" height="294">
                 </li>
             </ul>
+            </div>
         </section>
-        </div>
-        <div class="container"><section class="team-list">
+        <section class="team-list">
+            <div class="container">
             <h2 class="title">Наша команда</h2>
             <ul class="workers">
                 <li class="item">
@@ -95,16 +101,16 @@
                     <p class="worker-position">UI Designer</p>
                 </li>
             </ul>
-        </section>
         </div>
+        </section>
     </main>
     <footer class="footer">
        <div class="container"><a   class="logo" href="./index.html"><span class="logocolor">Web</span>Studio</a>
         <address>
             <p class="address">г. Киев, пр-т Леси Украинки, 26</p>
             <ul class="contacts">
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li class="item"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="item"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
         </address>
     </div>
