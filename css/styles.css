@@ -114,7 +114,7 @@ header {
 
 .geroy {
   background-color: var(--back-graphit);
-  height: 600px;
+  padding: 200px 0px;
 }
 
 .team-list {
@@ -132,8 +132,7 @@ header {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin: 0 auto;
-  padding-top: 200px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .button {
@@ -208,6 +207,7 @@ header {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .hang-list {
@@ -242,9 +242,6 @@ header {
 .workers {
   display: flex;
   flex-wrap: wrap;
-}
-
-.workers .item {
   margin-top: 50px;
 }
 
@@ -259,7 +256,7 @@ header {
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .worker-position {
@@ -302,7 +299,7 @@ header {
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
-  padding-bottom: 4px;
+  margin-bottom: 4px;
 }
 
 .project-style {
@@ -321,11 +318,12 @@ header {
 }
 
 .workers .card-worker {
-  padding: 30px 0;
+  padding: 30px 30px;
   border-left: 2px solid var(--border-projects);
   border-right: 2px solid var(--border-projects);
   border-bottom: 2px solid var(--border-projects);
   border-radius: 5px;
+  background-color: #ffffff;
 }
 
 .footer {
@@ -340,13 +338,11 @@ header {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  padding-bottom: 9px;
-  padding-top: 20px;
-  margin: 0px;
+  margin-bottom: 9px;
 }
 
 .contacts .item:not(:last-child) {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 
 a {
@@ -389,6 +385,7 @@ ul {
 
 address {
   font-style: normal;
+  margin-top: 20px;
 }
 
 h1,
