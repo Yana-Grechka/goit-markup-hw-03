@@ -32,6 +32,10 @@ header {
   justify-content: space-between;
 }
 
+.main-nav a {
+  padding: 32px 0;
+}
+
 .nav-link {
   color: var(--black-text);
   font-weight: 500;
@@ -42,10 +46,6 @@ header {
   margin: 0px;
 }
 
-.nav-link .menu {
-  padding: 32px 0;
-}
-
 .contacts-nav {
   color: var(--grey-text);
   font-weight: 500;
@@ -53,10 +53,6 @@ header {
   line-height: 16px;
   letter-spacing: 0.02em;
   display: flex;
-}
-
-.nav-link .contacts-nav {
-  padding: 32px 0;
 }
 
 .contacts-nav .item:not(:last-child) {
@@ -94,10 +90,10 @@ header {
   letter-spacing: 0.03em;
 }
 
-.header-logo {
+/* .header-logo {
   padding-top: 24px;
   padding-bottom: 25px;
-}
+} */
 
 .logo-footer {
   color: var(--white-text);
@@ -120,6 +116,10 @@ header {
 .team-list {
   background: var(--lite-grey-color);
   padding: 94px 0;
+}
+
+.team-list .title {
+  margin-bottom: 50px;
 }
 
 .geroy-title {
@@ -162,6 +162,11 @@ header {
   padding: 6px 22px;
   border-radius: 4px;
   border: none;
+}
+
+.button-list:focus {
+  background-color: var(--blue-text);
+  color: var(--white-text);
 }
 
 .buttons {
@@ -242,11 +247,18 @@ header {
 .workers {
   display: flex;
   flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -50px;
+}
+
+.workers .item {
+  flex-basis: calc(100% / 4);
+  margin-left: 30px;
   margin-top: 50px;
 }
 
-.workers .item:not(:last-child) {
-  margin-right: 30px;
+.workers .item img {
+  width: 100%;
 }
 
 .worker-name {
@@ -317,7 +329,7 @@ header {
   border-bottom: 1px solid var(--border-projects);
 }
 
-.workers .card-worker {
+.card-worker {
   padding: 30px 30px;
   border-left: 2px solid var(--border-projects);
   border-right: 2px solid var(--border-projects);
